@@ -28,6 +28,5 @@ export default new Router({
       path: '/books/:bookId',
       component:BookDetail
     }
-
   ]
 })

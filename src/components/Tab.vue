@@ -1,5 +1,6 @@
 <template>
-  <div class="tab">
+  <div class="tabs">
+    <ul>
     <router-link :to="{name:'Home'}" tag="li" exact>
       <div>
         <img src="../assets/images/home.svg"/>
@@ -24,6 +25,7 @@
       </div>
       <div>我的</div>
     </router-link>
+    </ul>
   </div>
 </template>
 
@@ -35,5 +37,4 @@
 </script>
 
 <style>
-
 </style>
