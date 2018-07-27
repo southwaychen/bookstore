@@ -1,7 +1,7 @@
 <template>
   <div class="tabs">
     <ul>
-    <router-link :to="{name:'Home'}" tag="li" exact>
+    <router-link :to="{name:'Home'}" tag="li" >
       <div>
         <img src="../assets/images/home.svg"/>
       </div>

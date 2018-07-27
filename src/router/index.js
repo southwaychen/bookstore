@@ -11,6 +11,7 @@ import BookDetail from '@/pages/BookDetail'
 Vue.use(Router)
 
 export default new Router({
+  linkActiveClass: "active",
   routes: [
     {
       name:'Main',
